@@ -15,8 +15,7 @@ void bubbleSort(int arr[], int n) {
     swap(&arr[j], &arr[j+1]); 
 }
 
-void insertionSort(int arr[], int n)
-{
+void insertionSort(int arr[], int n) {
 int i, item, j;
 for (i = 1; i < n; i++)
 {
@@ -32,8 +31,7 @@ arr[j+1] = item;
 }
 }
 
-void selectionSort(int arr[], int n)
-{
+void selectionSort(int arr[], int n) {
 int i, j, min_idx, temp;
 for (i = 0; i < n-1; i++) {
 printf("\nIteration# %d\n",i+1);
@@ -48,8 +46,7 @@ arr[min_idx] = temp;
 }
 
 
-void printArray(int arr[], int n)
-{
+void printArray(int arr[], int n) {
 int i;
 for (i = 0; i < n; i++)
 printf("%d ", arr[i]);
